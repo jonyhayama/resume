@@ -2,7 +2,7 @@
   <div class="page">
     <div class="buttons">
       <a href="#print" onclick="window.print();"><i class="fas fa-print"></i><span>Print</span></a>
-      <a href="./"><i class="far fa-folder-open"></i><span>Blog</span></a>
+      <a href="https://jony.dev"><i class="far fa-folder-open"></i><span>Blog</span></a>
     </div>
     <div class="left-column">
       <img class="photo" src="~/assets/img/jony-profile-2019-lowres.jpg" alt="Foto de Perfil" />
