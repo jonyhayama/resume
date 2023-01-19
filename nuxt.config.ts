@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@/assets/scss/main.scss'
   ],
   app: {
+    baseURL: '/resume/',
     head: {
       link: [
         {
