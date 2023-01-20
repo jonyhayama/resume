@@ -2,7 +2,12 @@ export const useTranslation = (lang = 'en_us') => {
   const messages = {}
 
   messages['pt-br'] = {
-    'Print': 'Imprimir'
+    'Print': 'Imprimir',
+    'Age:': 'Idade:',
+    'Marital Status:': 'Estado Civil:',
+    'Married':  'Casado',
+    'Contact': 'Contato',
+    'Varginha - MG, BRA': 'Varginha - MG'
   };
 
   return (string) => {

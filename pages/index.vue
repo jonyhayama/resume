@@ -2,49 +2,7 @@
   <div class="page">
     <SideButtons />
     <div class="left-column">
-      <img class="photo" src="~/assets/img/jony-profile-2019-lowres.jpg" alt="Foto de Perfil" />
-      <h1>Jonathan Hayama</h1>
-      <h2>Web Developer</h2>
-
-      <h3>Info</h3>
-      <table class="table info-table">
-        <tr>
-          <th>Age:</th>
-          <td>35</td>
-        </tr>
-        <tr>
-          <th>Marital Status:</th>
-          <td>Married</td>
-        </tr>
-      </table>
-
-      <h3>Contact</h3>
-      <table class="table contact-table">
-        <tr>
-          <th><i class="fas fa-phone"></i></th>
-          <td><a href="tel:+5535988559970" target="_blank" rel="nofollow">+55 (35) 9 8855-9970</a></td>
-        </tr>
-        <tr>
-          <th><i class="far fa-envelope"></i></th>
-          <td>jonathan.hayama@gmail.com</td>
-        </tr>
-        <tr>
-          <th><i class="fas fa-globe-americas"></i></th>
-          <td><a href="https://jony.dev" target="_blank">https://jony.dev</a></td>
-        </tr>
-        <tr>
-          <th><i class="fas fa-map-marker-alt"></i></th>
-          <td>Varginha - MG, BRA</td>
-        </tr>
-        <tr>
-          <th><i class="fab fa-github"></i></th>
-          <td><a href="https://github.com/jonyhayama" target="_blank">/jonyhayama</a></td>
-        </tr>
-        <tr>
-          <th><i class="fab fa-linkedin"></i></th>
-          <td><a href="https://www.linkedin.com/in/jonathanhayama/" target="_blank">/jonathanhayama</a></td>
-        </tr>
-      </table>
+      <PersonalInfo />
 
       <h3>Skills</h3>
       <div class="skill-meter">
