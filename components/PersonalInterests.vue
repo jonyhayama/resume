@@ -1,4 +1,10 @@
 <script setup>
+import videoIcon from '~/assets/icons/video.svg';
+import artIcon from '~/assets/icons/creativity.svg';
+import bookIcon from '~/assets/icons/open-book.svg';
+import coffeeIcon from '~/assets/icons/coffee-cup.svg';
+import kettlebellIcon from '~/assets/icons/kettlebell.svg';
+
 const props = defineProps({
   lang: {
     type: String,
@@ -6,15 +12,20 @@ const props = defineProps({
   }
 })
 const __ = useTranslation(props.lang);
+const interests = [
+  { name: __('Cinema'), icon: videoIcon },
+  { name: __('Art'), icon: artIcon },
+  { name: __('Reading'), icon: bookIcon },
+  { name: __('Coffee'), icon: coffeeIcon },
+  { name: __('Crossfit'), icon: kettlebellIcon },
+];
 </script>
 
 <template>
   <h3>{{ __('Interests') }}</h3>
   <ul class="interests">
-    <li><img src="~/assets/icons/video.svg" :alt="__('Cinema')" :title="__('Cinema')" /></li>
-    <li><img src="~/assets/icons/creativity.svg" :alt="__('Art')" :title="__('Art')" /></li>
-    <li><img src="~/assets/icons/open-book.svg" :alt="__('Reading')" :title="__('Reading')" /></li>
-    <li><img src="~/assets/icons/coffee-cup.svg" :alt="__('Coffee')" :title="__('Coffee')" /></li>
-    <li><img src="~/assets/icons/kettlebell.svg" :alt="__('Crossfit')" :title="__('Crossfit')" /></li>
+    <li v-for="interest in interests">
+      <img :src="interest.icon" :alt="interest.name" :title="interest.name" />
+    </li>
   </ul>
 </template>
