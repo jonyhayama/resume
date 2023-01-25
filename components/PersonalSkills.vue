@@ -8,19 +8,15 @@ const props = defineProps({
 const __ = useTranslation(props.lang);
 
 const skills = [
-  { name: 'CorelDraw', confidence: 7 },
-  { name: 'Elixir', confidence: 3 },
-  { name: 'HTML/CSS', confidence: 9 },
-  { name: 'jQuery', confidence: 8 },
-  { name: 'Linux/WSL', confidence: 6 },
-  { name: 'NodeJS', confidence: 6 },
-  { name: 'Photoshop', confidence: 5 },
-  { name: 'PHP', confidence: 9 },
-  { name: 'ReactJS', confidence: 3 },
-  { name: 'VueJS', confidence: 5 },
+  { name: 'HTML/CSS/JS', confidence: 9 },
+  { name: 'Linux/WSL', confidence: 7 },
+  { name: 'NodeJS', confidence: 5 },
+  { name: 'Pure PHP', confidence: 6 },
+  { name: 'ReactJS', confidence: 4 },
+  { name: 'VueJS', confidence: 8 },
   { name: 'Ruby on Rails', confidence: 7 },
-  { name: 'SQL', confidence: 8 },
-  { name: 'WordPress', confidence: 9 },
+  { name: 'SQL', confidence: 7 },
+  { name: 'WordPress', confidence: 8 },
 ].sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
