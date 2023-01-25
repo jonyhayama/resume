@@ -7,7 +7,11 @@ export const useTranslation = (lang = 'en_us') => {
     'Marital Status:': 'Estado Civil:',
     'Married':  'Casado',
     'Contact': 'Contato',
-    'Varginha - MG, BRA': 'Varginha - MG'
+    'Varginha - MG, BRA': 'Varginha - MG',
+    'Interests': 'Interesses',
+    'Art': 'Arte',
+    'Reading': 'Leitura',
+    'Coffee': 'Café'
   };
 
   return (string) => {

@@ -2,17 +2,9 @@
   <div class="page">
     <SideButtons lang="pt-br"/>
     <div class="left-column">
-      <PersonalInfo lang="pt-br"/>
-      <PersonalSkills />
-
-      <h3>Interesses</h3>
-      <ul class="interests">
-        <li><img src="~/assets/icons/video.svg" alt="Cinema" title="Cinema" /></li>
-        <li><img src="~/assets/icons/creativity.svg" alt="Arte" title="Arte" /></li>
-        <li><img src="~/assets/icons/open-book.svg" alt="Leitura" title="Leitura" /></li>
-        <li><img src="~/assets/icons/coffee-cup.svg" alt="Café" title="Café" /></li>
-        <li><img src="~/assets/icons/kettlebell.svg" alt="Crossfit" title="Crossfit" /></li>
-      </ul>
+      <PersonalInfo lang="pt-br" />
+      <PersonalSkills lang="pt-br" />
+      <PersonalInterests lang="pt-br" />
     </div>
     <div class="right-column">
       <h2><i class="fas fa-briefcase"></i>Experiência Profissional</h2>
