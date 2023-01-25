@@ -21,7 +21,7 @@ const skills = [
   { name: 'Ruby on Rails', confidence: 7 },
   { name: 'SQL', confidence: 8 },
   { name: 'WordPress', confidence: 9 },
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
 <template>
