@@ -187,7 +187,7 @@ h1 {
 .buttons a i{ width:18px; }
 .buttons a span{  display:inline-block; max-width:0; overflow:hidden; transition: all .3s ease-in-out; }
 .buttons a:hover{ background:#3C4556; color:#ff79c6; }
-.buttons a:hover > span{ max-width:200px; margin-left:5px; }
+.buttons a:hover > span{ max-width:300px; margin-left:5px; }
 
 @page {
   size: A4;
