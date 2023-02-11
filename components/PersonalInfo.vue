@@ -6,6 +6,14 @@ const props = defineProps({
   }
 })
 const __ = useTranslation(props.lang);
+
+function calculateAge(birthday) {
+  var ageDifMs = Date.now() - new Date(birthday);
+  var ageDate = new Date(ageDifMs);
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
+const age = calculateAge('1988-08-02')
 </script>
 
 <template>
@@ -17,7 +25,7 @@ const __ = useTranslation(props.lang);
   <table class="table info-table">
     <tr>
       <th>{{ __('Age:') }}</th>
-      <td>34</td>
+      <td>{{ age }}</td>
     </tr>
     <tr>
       <th>{{ __('Marital Status:') }}</th>
