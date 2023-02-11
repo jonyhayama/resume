@@ -145,6 +145,23 @@ const jobs = [
     description: __('Duties: Gather and revise documents, send documents to Visa Sponsors, help participants to schedule their visa appointments and fill out the required documents.')
   },
   {
+    company: {
+      name: 'Heavenly Sports',
+      segment: __('Work and Travel Program'),
+      url: 'https://www.heavenlysports.com/'
+    },
+    position: __('Ski Technician'),
+    dates: [{
+      from: 'Dec/2006',
+      to: 'Mar/2007',
+    }, {
+      from: 'Dec/2008',
+      to: 'Mar/2009'
+    }],
+    location: __('South Lake Tahoe-CA, USA'),
+    description: __('Duties: Set ski and snowboard bindings, help customers to choose the most suited equipment for their needs.')
+  },
+  {
     hidden: true,
     company: {
       name: 'ICC Informática',

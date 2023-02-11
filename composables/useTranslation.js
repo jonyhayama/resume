@@ -61,7 +61,11 @@ export const useTranslation = (lang = 'en_us') => {
     'Zend Certified Engineer 5.3': 'Certificação ZCE (Zend Certified Engineer) PHP 5.3',
     'Preparatory course for Zend Certified Engineer 5.3': 'Curso Preparatório para Certificação PHP 5.3 (ZCE)',
     'Analysis and Systems Development': 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
-    'ESL (English as a Second Language) - Level: Advanced': 'ESL (English as a Second Language) - Nível: Avançado'
+    'ESL (English as a Second Language) - Level: Advanced': 'ESL (English as a Second Language) - Nível: Avançado',
+    'Dec/2006 ~ Mar/2007': 'Dez/2006 ~ Mar/2007',
+    'Dec/2008 ~ Mar/2009': 'Dez/2008 ~ Mar/2009',
+    'Work and Travel Program': 'Programa de Work and Travel',
+    'Duties: Set ski and snowboard bindings, help customers to choose the most suited equipment for their needs.': 'Atribuições: Atendimento ao Público e regular bindings de skis e pranchas de snowboard'
   };
 
   return (string) => {
