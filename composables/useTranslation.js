@@ -54,7 +54,14 @@ export const useTranslation = (lang = 'en_us') => {
     'Abr/2007 ~ Set/2007': 'Abr/2007 ~ Set/2007',
     'Teacher at': 'Instrutor na',
     'Computing School': 'Escola de Informática',
-    'Subjects: Windows, MS Office, CorelDraw, Photoshop, Webdesign': 'Disciplinas Lecionadas: Windows, MS Office, CorelDraw, Photoshop, Webdesign'
+    'Subjects: Windows, MS Office, CorelDraw, Photoshop, Webdesign': 'Disciplinas Lecionadas: Windows, MS Office, CorelDraw, Photoshop, Webdesign',
+    'Education': 'Formação e Cursos Extracurriculares',
+    'Online Course': 'Curso a Distância',
+    'Web Application Technologies Specialist': 'Especialização em Tecnologias para Aplicações Web',
+    'Zend Certified Engineer 5.3': 'Certificação ZCE (Zend Certified Engineer) PHP 5.3',
+    'Preparatory course for Zend Certified Engineer 5.3': 'Curso Preparatório para Certificação PHP 5.3 (ZCE)',
+    'Analysis and Systems Development': 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
+    'ESL (English as a Second Language) - Level: Advanced': 'ESL (English as a Second Language) - Nível: Avançado'
   };
 
   return (string) => {
