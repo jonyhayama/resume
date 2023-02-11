@@ -6,12 +6,16 @@ const props = defineProps({
   }
 })
 const __ = useTranslation(props.lang);
+
+function print() {
+  window.print();
+}
 </script>
 
 <template>
   <div class="buttons">
     <div>
-      <a href="#print" onclick="window.print();">🖨️<span>{{ __('Print') }}</span></a>
+      <a href="#print" @click.prevent="print">🖨️<span>{{ __('Print') }}</span></a>
     </div>
     <div>
       <a href="https://jony.dev">🗂️<span>{{ __('Blog') }}</span></a>
